@@ -6,7 +6,12 @@ const App = () => {
 
   const [counter, setCounter] = useState(15);
   const incrementValue = () => {
-    setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
   };
   const decrementValue = () => {
     setCounter(counter - 1);
